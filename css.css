@@ -1,0 +1,285 @@
+
+.l{
+    margin-top:-5px;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color:darkslateblue;
+    background-color: white;
+    float: left;
+    margin-right:50px;
+
+}
+.header{
+  width: 2000px;
+    position: fixed;
+    background-color: white;
+    margin-top:-10px;
+
+}
+#p1{
+    background-color:lightslategrey;
+    height:600px;
+    width:auto;
+}
+#i1{
+    width:300px;
+    height:300px;
+    border-radius:70%;
+    float: left;
+    margin-top:80px;
+    margin-left:100px;
+}
+#p2{
+    float: right;
+    font-size: 50px;
+    margin-right: 400px;
+    margin-top: 80px;
+    color:white;
+}
+#p3{
+    float: right;
+    font-size: 40px;
+    margin-right: 160px;
+    margin-top: 80px;
+    color: white;
+}
+#div1{
+    background-color:white;
+}
+#about{
+font-size:90px;
+font-style:italic;
+    color:lightslategrey;
+    font-weight: bold;
+    margin-left:500px;
+    margin-top: 20px;
+}
+#me1{
+    color:dimgrey;
+    font-size:23px;
+    float:right;
+    width: 400px;
+    margin-right:60px;
+    margin-top:-50px;
+    line-height:1.5;
+
+}
+#me2{
+    float:left;
+    color:dimgrey;
+    font-size:23px;
+    line-height:1.5;
+    width: 400px;
+    height: 2px;
+    margin-left:100px;
+    margin-top:-50px;
+
+}
+.arrow{
+    width:120px;
+    margin-top:-90px;
+    margin-left:500px;
+
+}
+#arrow{
+    transform: scaleX(-1);
+    margin-top:-90px;
+    width:120px;
+    margin-left: 120px;
+}
+#div2{
+    margin-top:300px;
+}
+#edu{
+    font-size:90px;
+    font-style:italic;
+    color:lightslategrey;
+    font-weight: bold;
+    margin-left:400px;
+    margin-top: 20px;
+}
+.li2{
+   list-style-type: none;
+    color: dimgrey;
+    text-indent: 30px;
+    font-size:20px;
+}
+
+.li1{
+    font-weight: bold;
+    font-size:25px;
+    list-style-type:circle;
+    color:black;
+}
+
+#hobby{
+    font-size:90px;
+    font-style:italic;
+    color:lightslategrey;
+    font-weight: bold;
+    margin-left:400px;
+    margin-top: 100px;
+}
+#hob{
+    color:dimgrey;
+    font-size:23px;
+    margin-top:-50px;
+    line-height:1.3;
+    margin-left:80px;
+    margin-right:80px;
+}
+
+#links{
+    margin-left: 200px;
+}
+.container{
+    margin-left: 12px;
+    display: inline;
+    position: relative;
+    width: 50%;
+}
+.image {
+    display: inline-grid;
+    opacity: 1;
+    width:200px;
+    height:50%;
+    transition: .3s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.container:hover .image {
+    opacity: 0.3;
+}
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: lightslategrey;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+#lf{
+    font-size:90px;
+    font-style:italic;
+    color:lightslategrey;
+    font-weight: bold;
+    margin-left:400px;
+    margin-top: 100px;
+
+}
+#quote{
+    font-size: 30px;
+    color:gray;
+    font-weight: bold;
+    margin-left: 30px;
+}
+#lf2{
+    font-size:20px;
+    color:dimgray;
+    margin-left: 50px;
+    margin-right:50px;
+    text-align: left;
+    width: 700px;
+}
+#lf3{
+    float: right;
+    margin-top: -300px;
+    height:350px;
+    width:500px;
+
+}
+#tips{
+    float: right;
+    color:dimgrey;
+    margin-left:700px;
+    margin-bottom:50px;
+
+
+}
+
+#con{
+    font-size:90px;
+    font-style:italic;
+    color:lightslategrey;
+    font-weight: bold;
+    margin-left:400px;
+    margin-top: 200px;
+}
+#con2{
+    text-decoration: none;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    line-height:2;
+    font-size: 20px;
+    color: white;
+    float: right;
+    background: lightslategrey;
+}
+#mess{
+    float:left;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+    background: lightslategrey;
+}
+footer {
+  background: lightslategrey;
+    width:100% !important;
+    position:absolute !important;
+}
+
+form input {
+    width: 400px;
+    border-radius: 6px;
+    height: 25px;
+}
+
+form textarea {
+    width: 400px;
+    border-radius: 6px;
+    height: 70px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#con2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 40px;
+}
+.column ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 300px;
+}
+.column ul li{
+    list-style-type: none;
+}
